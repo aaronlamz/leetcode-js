@@ -25,7 +25,7 @@ Only one valid answer exists.
 ### Follow-up
 Can you come up with an algorithm that is less than O(n^2) time complexity?
 
-### Solution One
+### Solution
  O(n2) time complexity
 
 ```javascript
