@@ -7,7 +7,13 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 ```
 Input: l1 = [2,4,3], l2 = [5,6,4]
 Output: [7,0,8]
-Explanation: 342 + 465 = 807.
+Explanation: 
+2 4 3
+5 6 4
+------
+7 0 8 
+
+342 + 465 = 807.
 ```
 
 
@@ -77,3 +83,5 @@ var addTwoNumbers = function(l1, l2) {
 ```
 
 ### Analysis
+由于输入的两个链表都是逆序存储数字的位数的，因此两个链表中同一位置的数字可以直接相加。
+我们同时遍历两个链表，逐位计算它们的和，并与当前位置的进位值相加。
