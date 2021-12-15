@@ -68,6 +68,9 @@ var addTwoNumbers = function(l1, l2) {
         if (l2) {
             l2 = l2.next;
         }
+        if (carry > 0) {
+            tail.next = new ListNode(carry);
+        }
     }
     return head;
 };
