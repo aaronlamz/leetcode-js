@@ -37,17 +37,24 @@ Output: 0
  */
 var lengthOfLongestSubstring = function(s) {
     if(!s) return 0
+    if(s && !s.trim()) return 1
+    if(s.length === 1) return 1
     const obj = {}
     for(let i = 0; i < s.length; i++){
         let charI = s.charAt(i)
+        let keys = charI
         for(let j=i+1; j<s.length; j++){
             let charJ = s.charAt(j)
-            if(charI === charJ) {
-                obj[s.slice(i,j)] = j-i
-                break;
-            }
+            if(keys.indexOf(charJ)!==-1) {
+                obj[keys] = j-i
+                break
+            }else{
+                keys += charJ
+            } 
         }
+        console.log(keys)
+        obj[keys] = keys.length
     }
-    return Math.max(...Object.values(obj))
+    return Math.max(...Object.values(obj))    
 };
 ```
