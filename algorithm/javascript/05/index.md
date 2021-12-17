@@ -39,6 +39,27 @@ s consist of only digits and English letters.
  * @return {string}
  */
 var longestPalindrome = function(s) {
-
+    if(!s) return
+    if(s && s.length === 1) return s
+    const arr = []
+    for(let i=0; i < s.length; i++){
+        let charI = s.charAt(i)
+        let strKey = s.charAt(i)
+        arr.push(charI)
+        for(let j=i+1; j < s.length; j++){
+            let charJ = s.charAt(j)
+            if(charI === charJ){
+                strKey+=charJ
+                if(strKey === strKey.split('').reverse().join('')){
+                    arr.push(strKey)
+                }
+            }else{
+                strKey+= charJ
+            }
+        }
+    }
+    return arr.length===1 ? arr[0]:arr.reduce((previousVal,currentVal)=>{
+        return currentVal.length < previousVal.length ? previousVal: currentVal
+    })
 };
 ```
