@@ -1,53 +1,37 @@
-# Longest Substring Without Repeating Characters
-Given a string s, find the length of the longest substring without repeating characters.
+# Median of Two Sorted Arrays
+Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
 
+The overall run time complexity should be O(log (m+n)).
 ### Example 1:
 ```
-Input: s = "abcabcbb"
-Output: 3
-Explanation: The answer is "abc", with the length of 3.
+Input: nums1 = [1,3], nums2 = [2]
+Output: 2.00000
+Explanation: merged array = [1,2,3] and median is 2.
 ```
 
 ### Example 2:
 ```
-Input: s = "bbbbb"
-Output: 1
-Explanation: The answer is "b", with the length of 1.
+Input: nums1 = [1,2], nums2 = [3,4]
+Output: 2.50000
+Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 ```
-
-### Example 3:
+### Constraints:
 ```
-Input: s = "pwwkew"
-Output: 3
-Explanation: The answer is "wke", with the length of 3.
-Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
+nums1.length == m
+nums2.length == n
+0 <= m <= 1000
+0 <= n <= 1000
+1 <= m + n <= 2000
+-10**6 <= nums1[i], nums2[i] <= 10**6
 ```
-
-### Example 4:
-```
-Input: s = ""
-Output: 0
-```
-
 ### Solutions
 ```javascript
 /**
- * @param {string} s
+ * @param {number[]} nums1
+ * @param {number[]} nums2
  * @return {number}
  */
-var lengthOfLongestSubstring = function(s) {
-    if(!s) return 0
-    const obj = {}
-    for(let i = 0; i < s.length; i++){
-        let charI = s.charAt(i)
-        for(let j=i+1; j<s.length; j++){
-            let charJ = s.charAt(j)
-            if(charI === charJ) {
-                obj[s.slice(i,j)] = j-i
-                break;
-            }
-        }
-    }
-    return Math.max(...Object.values(obj))
+var findMedianSortedArrays = function(nums1, nums2) {
+
 };
 ```
