@@ -8,3 +8,4 @@ Leetcode solutions
 | 3  |  [Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [JavaScript](./algorithm/javascript/03/index.md) | Medium | 2021-12-16
 | 4  |  [Median of Two Sorted Arrays](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | [JavaScript](./algorithm/javascript/04/index.md) | Difficulty | --
 | 5  |  [Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [JavaScript](./algorithm/javascript/05/index.md) | Medium | 2021-12-17
+| 6  |  [Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/) | [JavaScript](./algorithm/javascript/06/index.md) | Medium | 2021-12-20

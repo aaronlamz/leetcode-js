@@ -33,6 +33,7 @@ s consist of only digits and English letters.
 ```
 
 ### Solutions
+#### 方法一：暴力破解
 ```javascript
 /**
  * @param {string} s
@@ -40,7 +41,7 @@ s consist of only digits and English letters.
  */
 var longestPalindrome = function(s) {
     if(!s) return
-    if(s && s.length === 1) return s
+    if(s < 2) return s
     const arr = []
     for(let i=0; i < s.length; i++){
         let charI = s.charAt(i)
@@ -63,3 +64,21 @@ var longestPalindrome = function(s) {
     })
 };
 ```
+#### 方法二：动态规划
+思路与算法
+
+```javascript
+/**
+ * @param {string} s
+ * @return {string}
+ */
+var longestPalindrome = function(s) {
+  let len  = s.length;
+  if( len < 2) return s;
+  let maxLen = 1;
+  let begin = 0;
+}
+```
+
+
+
