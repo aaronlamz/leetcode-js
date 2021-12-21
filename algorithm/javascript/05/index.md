@@ -66,6 +66,7 @@ var longestPalindrome = function(s) {
 ```
 #### 方法二：动态规划
 思路与算法
+对于一个子串而言，如果它是回文串，并且长度大于 22，那么将它首尾的两个字母去除之后，它仍然是个回文串。例如对于字符串`ababa`，如果我们已经知道 `bab` 是回文串，那么`ababa`一定是回文串，这是因为它的首尾两个字母都是 `a`。
 
 ```javascript
 /**
@@ -76,7 +77,8 @@ var longestPalindrome = function(s) {
   let len  = s.length;
   if( len < 2) return s;
   let maxLen = 1;
-  let begin = 0;
+  let begin = 0; 
+
 }
 ```
 
