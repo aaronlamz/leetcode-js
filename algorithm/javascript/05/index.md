@@ -74,11 +74,10 @@ var longestPalindrome = function(s) {
  * @return {string}
  */
 var longestPalindrome = function(s) {
-  let len  = s.length;
-  if( len < 2) return s;
-  let maxLen = 1;
-  let begin = 0; 
-
+    let len  = s.length;
+    if( len < 2) return s;
+    let maxLen = 1;
+    let begin = 0; 
 }
 ```
 
