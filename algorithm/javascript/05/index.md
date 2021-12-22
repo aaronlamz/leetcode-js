@@ -34,6 +34,7 @@ s consist of only digits and English letters.
 
 ### Solutions
 #### 方法一：暴力破解
+缺点：效率太低，超出时间限制
 ```javascript
 /**
  * @param {string} s
@@ -66,7 +67,7 @@ var longestPalindrome = function(s) {
 ```
 #### 方法二：动态规划
 思路与算法
-对于一个子串而言，如果它是回文串，并且长度大于 22，那么将它首尾的两个字母去除之后，它仍然是个回文串。例如对于字符串`ababa`，如果我们已经知道 `bab` 是回文串，那么`ababa`一定是回文串，这是因为它的首尾两个字母都是 `a`。
+对于一个子串而言，如果它是回文串，并且长度大于 2，那么将它首尾的两个字母去除之后，它仍然是个回文串。例如对于字符串`ababa`，如果我们已经知道 `bab` 是回文串，那么`ababa`一定是回文串，这是因为它的首尾两个字母都是 `a`。
 
 ```javascript
 /**
@@ -77,9 +78,42 @@ var longestPalindrome = function(s) {
     let len  = s.length;
     if( len < 2) return s;
     let maxLen = 1;
-    let begin = 0; 
+    let begin = 0;
+    const dp = []
+    // dp[i][j] 表示 s[i..j] 是否是回文串
+    for(let i = 0; i < len; i++){
+        dp[i] = []
+        for(let j = 0; j < len; j++){
+            // 初始化所有长度为 1 的子串都是回文串
+            if(i === j){
+                dp[i][j] = true
+            } else{
+                dp[i][j] = ''
+            }
+        }
+    }
+    const strArray = s.split('')
+    // 枚举子串长度L,从长度2开始,回文串至少长度2，长度1则无须处理
+    for(let L=2; L <= len; L++){
+        // i左边界 j右边界
+        for(let i=0; i < len; i++){
+            let j = i+L-1;
+            // 超出边界则跳出循环
+            if(j > len){
+                break
+            }
+            if(strArray[i] !== strArray[j]){
+                dp[i][j] = false
+            }else{
+                // 长度为3，且相等的情况
+                if(j-i < 3){
+                    dp[i][j] = true
+                } else {
+                    dp[i][j] = dp[i+1][j-1]
+                }
+            }
+        }
+    }
+
 }
 ```
-
-
-
