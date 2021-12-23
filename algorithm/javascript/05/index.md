@@ -93,27 +93,36 @@ var longestPalindrome = function(s) {
         }
     }
     const strArray = s.split('')
-    // 枚举子串长度L,从长度2开始,回文串至少长度2，长度1则无须处理
+    // 枚举子串长度L,从长度2开始,回文串至少长度2
     for(let L=2; L <= len; L++){
         // i左边界 j右边界
         for(let i=0; i < len; i++){
-            let j = i+L-1;
+            // 由 L 和 i 可以确定右边界，即 j - i + 1 = L 得
+            let j = i + L - 1;
             // 超出边界则跳出循环
             if(j > len){
                 break
             }
             if(strArray[i] !== strArray[j]){
                 dp[i][j] = false
-            }else{
-                // 长度为3，且相等的情况
-                if(j-i < 3){
+            } else {
+                // 首尾相等时，有2种情况
+                // 情况1：s[i...j]长度不超过3，不用检查必为回文串，如a ,aa ,aba 都已处理
+                // 情况2：s[i...j]长度大于3，由s[i+1...j-1]来判断
+                if(j-i < 3) {
                     dp[i][j] = true
                 } else {
+                    // 状态转移方程  p(i,j) = p(i+1,j-1) && str[i] === str[j]
                     dp[i][j] = dp[i+1][j-1]
                 }
             }
+            if(dp[i][j] && j-i+1 > maxLen){
+              maxLen = j-i+1
+              begin = i
+            }
         }
     }
-
+    return s.substring(begin, begin + maxLen);
 }
 ```
+复杂度分析
