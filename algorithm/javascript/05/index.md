@@ -125,4 +125,3 @@ var longestPalindrome = function(s) {
     return s.slice(begin, begin + maxLen);
 }
 ```
-复杂度分析
