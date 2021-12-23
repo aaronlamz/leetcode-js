@@ -122,7 +122,7 @@ var longestPalindrome = function(s) {
             }
         }
     }
-    return s.substring(begin, begin + maxLen);
+    return s.slice(begin, begin + maxLen);
 }
 ```
 复杂度分析
