@@ -51,6 +51,9 @@ P     I
  * @return {string}
  */
 var convert = function(s, numRows) {
-
+  if(!s) return ''
+  let len = s.length;
+  const strArray = s.split('')
+  for(let i = 0;)
 };
 ```
