@@ -1,6 +1,5 @@
 # leetcode-js
-Leetcode solutions written in JavaScript. Too difficult for me 😐 
-
+Leetcode solutions written in JavaScript. 
 | # | Title | Solution | Difficulty | Date
 | :---: | :---: | :---: | :---: | :---: |
 | 1  |  [Two Sum](https://leetcode-cn.com/problems/two-sum/) | [JavaScript](./algorithm/javascript/01/index.md) | Easy | 2021-11-15
