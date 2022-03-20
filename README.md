@@ -1,5 +1,5 @@
 # leetcode-js
-Leetcode solutions written in JavaScript
+Leetcode solutions written in JavaScript. Too difficult for me 😐 
 
 | # | Title | Solution | Difficulty | Date
 | :---: | :---: | :---: | :---: | :---: |
