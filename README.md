@@ -3,6 +3,9 @@
 
 Leetcode solutions written with JavaScript.
 
+## Status
+Working in progress
+
 ## 🌈 Documentation
 [https://aaronlamz.github.io/leetcode-js](https://aaronlamz.github.io/leetcode-js)
 ## ©️ License
