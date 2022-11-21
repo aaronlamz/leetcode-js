@@ -50,11 +50,11 @@ var lengthOfLongestSubstring = function(s) {
                 break
             }else{
                 keys += charJ
-            } 
+            }
         }
         console.log(keys)
         obj[keys] = keys.length
     }
-    return Math.max(...Object.values(obj))    
+    return Math.max(...Object.values(obj))
 };
 ```
