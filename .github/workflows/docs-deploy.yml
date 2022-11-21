@@ -34,4 +34,4 @@ jobs:
         env:
             SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: |
-          sh ./build/docs-deploy.sh
+          sh docs-deploy.sh
