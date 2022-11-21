@@ -1,10 +1,11 @@
 export default {
   title: 'LeetcodeJS',
   description: 'Leetcode solutions written with JavaScript.',
+  base:'/leetcode-js/',
   // Theme related configurations.
   themeConfig: {
     logo: '/logo.png',
-    base:'/leetcode-js/',
+
     head: [['link', { rel: 'icon', href: '/leetcode-js/favicon.ico' }]],
     nav: [
       { text: 'Introduction', link: '/md/leetcode/intro.md'},
