@@ -18,6 +18,6 @@ git config --global init.defaultBranch main
 git config --global user.email "qylinxia@qq.com"
 git config --global user.name "aaronlamz"
 git add .
-git commit -m 'deploy'
+git commit -m 'deploy site page'
 git status
-git push -f git@github.com:aaronlamz/vue-next-i18n.git main:gh-pages
+git push -f git@github.com:aaronlamz/leetcode-js.git main:gh-pages
