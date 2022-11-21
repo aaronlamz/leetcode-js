@@ -6,8 +6,8 @@ Leetcode solutions written with JavaScript.
 ## Status
 Working in progress
 
-## 🌈 Documentation
+## Documentation
 [https://aaronlamz.github.io/leetcode-js](https://aaronlamz.github.io/leetcode-js)
-## ©️ License
+## License
 MIT License © 2022 [Aaron Lam](https://github.com/aaronlamz)
 
