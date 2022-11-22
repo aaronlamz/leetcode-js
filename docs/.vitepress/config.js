@@ -2,12 +2,12 @@ export default {
   title: 'LeetcodeJS',
   description: 'Leetcode solutions written with JavaScript.',
   base:'/leetcode-js/',
+  head: [
+    ['link', { rel: 'icon', href: '/leetcode-js/favicon.ico'}]
+  ],
   // Theme related configurations.
   themeConfig: {
     logo: '/logo.png',
-    head: [
-      ['link', { rel: 'icon', href: '/leetcode-js/favicon.ico'}]
-    ],
     nav: [
       { text: 'Introduction', link: '/md/leetcode/intro.md'},
       { text: 'Github', link: 'https://github.com/aaronlamz/leetcode-js'}
