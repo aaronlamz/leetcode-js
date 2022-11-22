@@ -1,2 +1,2 @@
-# Introduction
-Record some notes on learing algorithms.
+# 写在前面
+中年码工Leetcode刷题记录&学习笔记。打工太难。太卷啦～_～。
