@@ -3,7 +3,7 @@ export default {
   description: 'Leetcode solutions written with JavaScript.',
   base:'/leetcode-js/',
   head: [
-    ['link', { rel: 'icon', href: '/leetcode-js/favicon.ico'}]
+    ['link', { rel: 'icon', href: '/leetcode-js/favicon.png'}]
   ],
   // Theme related configurations.
   themeConfig: {
@@ -19,8 +19,8 @@ export default {
           collapsible: true,
           items: [
             { text: '简介', link: '/md/leetcode/intro' },
-            { text: '1.Two Sum', link: '/md/leetcode/01/index' },
-            { text: '2.Add Tow Numbers', link: '/md/leetcode/02/index' },
+            { text: '1、两数之和', link: '/md/leetcode/01/index' },
+            { text: '2、两数相加', link: '/md/leetcode/02/index' },
           ]
         },
         {
