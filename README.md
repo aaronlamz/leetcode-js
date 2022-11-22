@@ -5,7 +5,7 @@
 Leetcode solutions written with JavaScript.
 
 ## Status
-Working in progress every Weekly
+Working in progress weekly
 
 ## Documentation
 [https://aaronlamz.github.io/leetcode-js](https://aaronlamz.github.io/leetcode-js)
