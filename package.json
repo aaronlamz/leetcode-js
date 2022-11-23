@@ -7,6 +7,7 @@
   "author": "AaronLam",
   "license": "MIT",
   "scripts": {
+    "dev": "yarn && yarn docs:dev",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"
