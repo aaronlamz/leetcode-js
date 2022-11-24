@@ -1,4 +1,3 @@
-# LeetcodeJS
 <div align="center">
 <img src="./hero.png">
 </div>
