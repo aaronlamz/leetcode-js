@@ -1,8 +1,8 @@
 # LeetcodeJS
 
-<!-- <div align="center">
-<img src="./hero.png" width="50%">
-</div> -->
+<div align="center">
+<img src="./hero.png">
+</div>
 
 [![docs-deploy](https://github.com/aaronlamz/leetcode-js/actions/workflows/docs-deploy.yml/badge.svg)](https://github.com/aaronlamz/leetcode-js/actions/workflows/docs-deploy.yml)
 
