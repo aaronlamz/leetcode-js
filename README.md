@@ -1,12 +1,18 @@
-# LeetcodeJS
-
 <div align="center">
 <img src="./hero.png">
 </div>
 
+
+# LeetcodeJS 
+
 [![docs-deploy](https://github.com/aaronlamz/leetcode-js/actions/workflows/docs-deploy.yml/badge.svg)](https://github.com/aaronlamz/leetcode-js/actions/workflows/docs-deploy.yml)
 
+
 Leetcode solutions written with JavaScript
+
+
+
+
 
 ## Status
 Working in progress weekly
