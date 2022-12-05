@@ -15,13 +15,13 @@ string convert(string s, int numRows);
  
 ```
 
-## 示例 1：
+示例 1：
 ```
 输入：s = "PAYPALISHIRING", numRows = 3
 输出："PAHNAPLSIIGYIR"
 ```
 
-## 示例 2：
+示例 2：
 ```
 输入：s = "PAYPALISHIRING", numRows = 4
 输出："PINALSIGYAHRPI"
@@ -31,16 +31,28 @@ A   L S  I G
 Y A   H R
 P     I
 ```
-## 示例 3：
+示例 3：
 ```
 输入：s = "A", numRows = 1
 输出："A"
 ```
 
-## 提示：
+提示：
 
 * 1 <= s.length <= 1000
 * s 由英文字母（小写和大写）、',' 和 '.' 组成
 * 1 <= numRows <= 1000
 
 ## 题解
+1、直接构造
+我们来研究方法一中矩阵的每个非空字符会对应到 ss 的哪个下标（记作 idx），从而直接构造出答案。
+
+## 参考
+### [同余定理](https://baike.baidu.com/item/%E5%90%8C%E4%BD%99%E5%AE%9A%E7%90%86/1212360?fromtitle=%E5%90%8C%E4%BD%99&fromid=1432545)
+
+数论中的重要概念。给定一个正整数m，如果两个整数a和b满足a-b能够被m整除，即(a-b)/m得到一个整数，那么就称整数a与b对模m同余，记作a≡b(mod m)。对模m同余是整数的一个等价关系。
+
+#### 同余符号
+两个整数a、b，若它们除以整数m所得的余数相等，则称a与b对于模m同余或a同余于b模m。
+记作：a≡b (mod m)，
+读作：a同余于b模m，或读作a与b对模m同余，例如26≡2(mod 12)。
