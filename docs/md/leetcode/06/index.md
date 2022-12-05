@@ -44,24 +44,3 @@ P     I
 * 1 <= numRows <= 1000
 
 ## 题解
-### 方法一：按行访问
-#### 思路
-按照与逐行读取 Z 字形图案相同的顺序访问字符串。
-#### 算法
-首先访问 行 0 中的所有字符，接着访问 行 1，然后 行 2，依此类推...
-对于所有整数 k：
-*
-
-```javascript
-/**
- * @param {string} s
- * @param {number} numRows
- * @return {string}
- */
-var convert = function(s, numRows) {
-  if(!s) return ''
-  let len = s.length;
-  const strArray = s.split('')
-  for(let i = 0;)
-};
-```
