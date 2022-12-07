@@ -15,7 +15,7 @@ export default {
     sidebar: {
       '/md/':[
         {
-          text: 'Leetcode',
+          text: 'Leetcode题解',
           collapsible: true,
           items: [
             { text: '简介', link: '/md/leetcode/intro'},
