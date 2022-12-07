@@ -11,11 +11,5 @@
 Leetcode solutions written with JavaScript
 
 
-
-
-
-## Status
-Working in progress weekly
-
 ## Documentation
 [https://aaronlamz.github.io/leetcode-js](https://aaronlamz.github.io/leetcode-js)
