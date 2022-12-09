@@ -15,10 +15,10 @@ export default {
     sidebar: {
       '/md/':[
         {
-          text: 'Leetcode题解',
+          text: 'Leetcode',
           collapsible: true,
           items: [
-            { text: '简介', link: '/md/leetcode/intro'},
+            { text: 'Introduction', link: '/md/leetcode/intro'},
             { text: '1. 两数之和', link: '/md/leetcode/01/'},
             { text: '2. 两数相加', link: '/md/leetcode/02/'},
             { text: '3. 无重复字符的最长子串', link: '/md/leetcode/03/'},
@@ -28,10 +28,10 @@ export default {
           ]
         },
         {
-          text: '数据结构与算法',
+          text: 'Data Structures and Algorithms',
           collapsible: true,
           items: [
-            { text: '简介', link: '/md/data-structure/intro'},
+            { text: 'Introduction', link: '/md/data-structure/intro'},
           ]
         }
       ],
