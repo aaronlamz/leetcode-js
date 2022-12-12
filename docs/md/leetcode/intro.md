@@ -1,2 +1,2 @@
 # Preface
-Leetcode learing notes.
+Leetcode learning notes.
