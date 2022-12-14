@@ -10,8 +10,8 @@
 
 💡 Leetcode 题解（JavaScrip实现）
 
-## 状态
-编写中
+## 进度
+[6/200](https://aaronlamz.github.io/leetcode-js/md/leetcode/06/)
 
 ## 文档
 [https://aaronlamz.github.io/leetcode-js](https://aaronlamz.github.io/leetcode-js)
