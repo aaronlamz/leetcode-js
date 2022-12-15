@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./hero.png">
+    <img src="./hero.png">
 </div>
 
 
@@ -13,7 +13,7 @@
 ## 进度
 
 <a href="https://aaronlamz.github.io/leetcode-js/md/leetcode/06/">
-<img src="https://img.shields.io/badge/Leetcode-6%2F200-brightgreen" />
+    <img src="https://img.shields.io/badge/Leetcode-6%2F200-brightgreen" />
 </a>
 
 ## 文档
