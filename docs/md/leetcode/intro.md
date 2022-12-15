@@ -1,2 +1,3 @@
-# Preface
-Leetcode learning notes.
+# 写在前面
+Leetcode刷题纪录&算法学习笔记>_<
+
