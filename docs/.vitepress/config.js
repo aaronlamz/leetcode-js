@@ -1,6 +1,6 @@
 export default {
   title: 'LeetcodeJS',
-  description: 'Leetcode solutions written with JavaScript.',
+  description: 'Leetcode 题解（JavaScript实现）｜算法学习笔记',
   base:'/leetcode-js/',
   head: [
     ['link', { rel: 'icon', href: '/leetcode-js/favicon.png'}]
@@ -9,7 +9,7 @@ export default {
   themeConfig: {
     logo: '/logo.png',
     nav: [
-      { text: 'Introduction', link: '/md/leetcode/intro.md'},
+      { text: '简介', link: '/md/leetcode/intro.md'},
       { text: 'Github', link: 'https://github.com/aaronlamz/leetcode-js'}
     ],
     sidebar: {
