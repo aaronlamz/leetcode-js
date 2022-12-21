@@ -3,9 +3,7 @@
 </div>
 
 
-# LeetcodeJS
-
-[![docs-deploy](https://github.com/aaronlamz/leetcode-js/actions/workflows/docs-deploy.yml/badge.svg)](https://github.com/aaronlamz/leetcode-js/actions/workflows/docs-deploy.yml)
+# LeetcodeJS [![docs-deploy](https://github.com/aaronlamz/leetcode-js/actions/workflows/docs-deploy.yml/badge.svg)](https://github.com/aaronlamz/leetcode-js/actions/workflows/docs-deploy.yml)
 
 > 💡Leetcode 题解（JavaScript实现）
 
