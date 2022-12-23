@@ -5,7 +5,7 @@
 
 # LeetcodeJS [![docs-deploy](https://github.com/aaronlamz/leetcode-js/actions/workflows/docs-deploy.yml/badge.svg)](https://github.com/aaronlamz/leetcode-js/actions/workflows/docs-deploy.yml)
 
-> 💡Leetcode 题解（JavaScript实现）
+💡 Leetcode 题解（JavaScript实现）
 
 ## 刷题进度
 
