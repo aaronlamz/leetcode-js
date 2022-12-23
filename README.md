@@ -17,4 +17,4 @@
 [https://aaronlamz.github.io/leetcode-js](https://aaronlamz.github.io/leetcode-js)
 
 ## 学习资源
-[开源算法库：GitHub最大的开源算法库](https://the-algorithms.com/zh_Hans#aboutUs)
+[GitHub最大的开源算法库：收集常用算法的各种实现](https://the-algorithms.com/zh_Hans#aboutUs)
