@@ -7,7 +7,7 @@
 
 💡 Leetcode 题解（JavaScript实现）
 
-## 刷题进度
+## 每日进度
 
 <a href="https://aaronlamz.github.io/leetcode-js/md/leetcode/06/">
     <img src="https://img.shields.io/badge/Leetcode-6%2F200-brightgreen" />
