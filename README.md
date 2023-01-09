@@ -18,5 +18,5 @@
 
 ## 学习资源
 - [GitHub最大的开源算法库：收集常用算法的各种实现](https://the-algorithms.com/zh_Hans#aboutUs)
-- [Coursera 免费算法课程](https://www.coursera.org/learn/algorithms-part1/supplement/icGHT/welcome-to-algorithms-part-i)
+- [Coursera 免费算法课程](https://www.coursera.org/learn/algorithms-part1)
 
