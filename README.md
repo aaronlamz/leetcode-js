@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/badge/Leetcode-6%2F200-brightgreen" />
 </a>
 
-## 在线文档
+## 在线阅读
 [https://aaronlamz.github.io/leetcode-js](https://aaronlamz.github.io/leetcode-js)
 
 ## 学习资源
